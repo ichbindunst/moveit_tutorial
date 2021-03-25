@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target speed_control[0m
+[ 16%] Built target inverse_kinematic
+[ 33%] Built target cartesian_move
+[ 50%] Built target run_circle
+[ 66%] Built target random
+[ 83%] Built target direct_kinematic
+[ 91%] [32mBuilding CXX object CMakeFiles/speed_control.dir/src/speed_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/yao/moveit_tutorial/devel/.private/probot_examples/lib/probot_examples/speed_control[0m
+[100%] Built target speed_control

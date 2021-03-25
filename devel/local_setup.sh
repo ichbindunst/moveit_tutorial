@@ -1,0 +1,1 @@
+/home/yao/moveit_tutorial/devel/.private/catkin_tools_prebuild/local_setup.sh

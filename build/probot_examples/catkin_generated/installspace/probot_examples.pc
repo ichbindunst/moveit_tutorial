@@ -1,0 +1,8 @@
+prefix=/home/yao/moveit_tutorial/install
+
+Name: probot_examples
+Description: Description of probot_examples
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp moveit_core moveit_ros_planning_interface

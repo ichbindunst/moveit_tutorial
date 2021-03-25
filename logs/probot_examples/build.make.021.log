@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target smooth_move[0m
+[  7%] [32mBuilding CXX object CMakeFiles/smooth_move.dir/src/smooth_move.cpp.o[0m
+[ 21%] Built target cartesian_move
+[ 85%] Built target speed_control
+[ 92%] Built target inverse_kinematic
+[ 92%] Built target direct_kinematic
+[ 92%] Built target random
+[ 85%] Built target run_circle
+[100%] [32m[1mLinking CXX executable /home/yao/moveit_tutorial/devel/.private/probot_examples/lib/probot_examples/smooth_move[0m
+[100%] Built target smooth_move

@@ -1,0 +1,8 @@
+prefix=/home/yao/moveit_tutorial/devel/.private/probot_anno_ikfast_manipulator_plugin
+
+Name: probot_anno_ikfast_manipulator_plugin
+Description: Description of probot_anno_ikfast_manipulator_plugin
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: moveit_core pluginlib roscpp tf_conversions

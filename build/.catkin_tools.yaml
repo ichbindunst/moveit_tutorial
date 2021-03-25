@@ -1,0 +1,6 @@
+devel_space: /home/yao/moveit_tutorial/devel
+install: false
+install_space: /home/yao/moveit_tutorial/install
+profile: default
+source_space: /home/yao/moveit_tutorial/src
+workspace: /home/yao/moveit_tutorial

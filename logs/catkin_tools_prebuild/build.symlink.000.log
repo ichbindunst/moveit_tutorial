@@ -1,0 +1,12 @@
+Symlinking /home/yao/moveit_tutorial/devel/./local_setup.zsh
+Symlinking /home/yao/moveit_tutorial/devel/./setup.sh
+Symlinking /home/yao/moveit_tutorial/devel/./setup.zsh
+Symlinking /home/yao/moveit_tutorial/devel/./local_setup.sh
+Symlinking /home/yao/moveit_tutorial/devel/./env.sh
+Symlinking /home/yao/moveit_tutorial/devel/./setup.bash
+Symlinking /home/yao/moveit_tutorial/devel/./cmake.lock
+Symlinking /home/yao/moveit_tutorial/devel/./local_setup.bash
+Symlinking /home/yao/moveit_tutorial/devel/./_setup_util.py
+Symlinking /home/yao/moveit_tutorial/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/yao/moveit_tutorial/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/yao/moveit_tutorial/devel/lib/pkgconfig/catkin_tools_prebuild.pc

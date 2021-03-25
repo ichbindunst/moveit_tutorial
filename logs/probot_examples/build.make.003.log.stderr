@@ -1,0 +1,621 @@
+In file included from [01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:52:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<Type> Name##Ptr;                                                                             \
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:50:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(Shape);
+[01;32m[K ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:53:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<const Type> Name##ConstPtr;
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:50:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(Shape);
+[01;32m[K ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:42:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_model/robot_model.h:47[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:174:21:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+   const std::vector<shapes::ShapeConstPtr>& getShapes() const
+[01;32m[K                     ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:174:21:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:174:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   const std::vector<shapes::ShapeConstPtr>& getShapes() const
+[01;32m[K                                          ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:174:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:179:38:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+   void setGeometry(const std::vector<shapes::ShapeConstPtr>& shapes, const EigenSTL::vector_Affine3d& origins);
+[01;32m[K                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:179:38:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:179:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   void setGeometry(const std::vector<shapes::ShapeConstPtr>& shapes, const EigenSTL::vector_Affine3d& origins);
+[01;32m[K                                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:179:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:260:15:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+   std::vector<shapes::ShapeConstPtr> shapes_;
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:260:15:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:260:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   std::vector<shapes::ShapeConstPtr> shapes_;
+[01;32m[K                                    ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/link_model.h:260:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+In file included from [01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:52:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<Type> Name##Ptr;                                                                             \
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/kinematics_base/kinematics_base.h:138:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(KinematicsBase);
+[01;32m[K ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:53:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<const Type> Name##ConstPtr;
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/kinematics_base/kinematics_base.h:138:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(KinematicsBase);
+[01;32m[K ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/robot_model/robot_model.h:47:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:56:25:[m[K [01;31m[Kerror: [m[K'[01m[KKinematicsBasePtr[m[K' is not a member of '[01m[Kkinematics[m[K'
+ typedef boost::function<kinematics::KinematicsBasePtr(const JointModelGroup*)> SolverAllocatorFn;
+[01;32m[K                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:56:25:[m[K [01;31m[Kerror: [m[K'[01m[KKinematicsBasePtr[m[K' is not a member of '[01m[Kkinematics[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:56:77:[m[K [01;31m[Kerror: [m[Ka function call cannot appear in a constant-expression
+ typedef boost::function<kinematics::KinematicsBasePtr(const JointModelGroup*)> SolverAllocatorFn;
+[01;32m[K                                                                             ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:56:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ typedef boost::function<kinematics::KinematicsBasePtr(const JointModelGroup*)> SolverAllocatorFn;
+[01;32m[K                                                                              ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:101:17:[m[K [01;31m[Kerror: [m[K'[01m[KKinematicsBaseConstPtr[m[K' in namespace '[01m[Kkinematics[m[K' does not name a type
+     kinematics::KinematicsBaseConstPtr solver_instance_const_;
+[01;32m[K                 ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:103:17:[m[K [01;31m[Kerror: [m[K'[01m[KKinematicsBasePtr[m[K' in namespace '[01m[Kkinematics[m[K' does not name a type
+     kinematics::KinematicsBasePtr solver_instance_;
+[01;32m[K                 ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:529:21:[m[K [01;31m[Kerror: [m[K'[01m[KKinematicsBaseConstPtr[m[K' in namespace '[01m[Kkinematics[m[K' does not name a type
+   const kinematics::KinematicsBaseConstPtr& getSolverInstance() const
+[01;32m[K                     ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:534:21:[m[K [01;31m[Kerror: [m[K'[01m[KKinematicsBasePtr[m[K' in namespace '[01m[Kkinematics[m[K' does not name a type
+   const kinematics::KinematicsBasePtr& getSolverInstance()
+[01;32m[K                     ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:[m[K In member function '[01m[Kmoveit::core::JointModelGroup::KinematicsSolver::operator bool() const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:81:51:[m[K [01;31m[Kerror: [m[K'[01m[Ksolver_instance_[m[K' was not declared in this scope
+       return allocator_ && !bijection_.empty() && solver_instance_;
+[01;32m[K                                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:[m[K In member function '[01m[Kvoid moveit::core::JointModelGroup::KinematicsSolver::reset()[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:86:7:[m[K [01;31m[Kerror: [m[K'[01m[Ksolver_instance_[m[K' was not declared in this scope
+       solver_instance_.reset();
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:87:7:[m[K [01;31m[Kerror: [m[K'[01m[Ksolver_instance_const_[m[K' was not declared in this scope
+       solver_instance_const_.reset();
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:[m[K In member function '[01m[Kbool moveit::core::JointModelGroup::setRedundantJoints(const std::vector<std::__cxx11::basic_string<char> >&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:543:33:[m[K [01;31m[Kerror: [m[K'[01m[Kstruct moveit::core::JointModelGroup::KinematicsSolver[m[K' has no member named '[01m[Ksolver_instance_[m[K'
+     if (group_kinematics_.first.solver_instance_)
+[01;32m[K                                 ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/joint_model_group.h:544:38:[m[K [01;31m[Kerror: [m[K'[01m[Kstruct moveit::core::JointModelGroup::KinematicsSolver[m[K' has no member named '[01m[Ksolver_instance_[m[K'
+       return group_kinematics_.first.solver_instance_->setRedundantJoints(joints);
+[01;32m[K                                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/robot_model.h:[m[K At global scope:
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:52:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<Type> Name##Ptr;                                                                             \
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/robot_model.h:63:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(RobotModel);
+[01;32m[K ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:53:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<const Type> Name##ConstPtr;
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/robot_model.h:63:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(RobotModel);
+[01;32m[K ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_model/robot_model.h:614:11:[m[K [01;31m[Kerror: [m[K'[01m[KShapePtr[m[K' in namespace '[01m[Kshapes[m[K' does not name a type
+   shapes::ShapePtr constructShape(const urdf::Geometry* geom);
+[01;32m[K           ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:42:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:63:80:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+   AttachedBody(const LinkModel* link, const std::string& id, const std::vector<shapes::ShapeConstPtr>& shapes,
+[01;32m[K                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:63:80:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:63:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   AttachedBody(const LinkModel* link, const std::string& id, const std::vector<shapes::ShapeConstPtr>& shapes,
+[01;32m[K                                                                                                     ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:63:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:88:21:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+   const std::vector<shapes::ShapeConstPtr>& getShapes() const
+[01;32m[K                     ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:88:21:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:88:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   const std::vector<shapes::ShapeConstPtr>& getShapes() const
+[01;32m[K                                          ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:88:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:140:15:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+   std::vector<shapes::ShapeConstPtr> shapes_;
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:140:15:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:140:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   std::vector<shapes::ShapeConstPtr> shapes_;
+[01;32m[K                                    ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/attached_body.h:140:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+In file included from [01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:52:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<Type> Name##Ptr;                                                                             \
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:56:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(RobotState);
+[01;32m[K ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:53:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<const Type> Name##ConstPtr;
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:56:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(RobotState);
+[01;32m[K ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43:0[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In constructor '[01m[Kmoveit::core::JumpThreshold::JumpThreshold(double)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:81:60:[m[K [01;35m[Kwarning: [m[Kdelegating constructors only available with -std=c++11 or -std=gnu++11
+   explicit JumpThreshold(double jt_factor) : JumpThreshold()
+[01;32m[K                                                            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In constructor '[01m[Kmoveit::core::JumpThreshold::JumpThreshold(double, double)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:86:83:[m[K [01;35m[Kwarning: [m[Kdelegating constructors only available with -std=c++11 or -std=gnu++11
+   explicit JumpThreshold(double jt_revolute, double jt_prismatic) : JumpThreshold()
+[01;32m[K                                                                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K At global scope:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:128:20:[m[K [01;31m[Kerror: [m[K'[01m[KRobotModelConstPtr[m[K' does not name a type
+   RobotState(const RobotModelConstPtr& robot_model);
+[01;32m[K                    ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:138:9:[m[K [01;31m[Kerror: [m[K'[01m[KRobotModelConstPtr[m[K' does not name a type
+   const RobotModelConstPtr& getRobotModel() const
+[01;32m[K         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:939:68:[m[K [01;31m[Kerror: [m[K'[01m[KKinematicsBaseConstPtr[m[K' in namespace '[01m[Kkinematics[m[K' does not name a type
+   bool setToIKSolverFrame(Eigen::Affine3d& pose, const kinematics::KinematicsBaseConstPtr& solver);
+[01;32m[K                                                                    ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1108:73:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1108:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1108:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1114:73:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1114:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1114:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1131:73:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1131:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1131:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1137:73:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1137:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1137:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1153:73:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1153:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1153:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1159:73:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1159:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   double computeCartesianPath(const JointModelGroup* group, std::vector<RobotStatePtr>& traj, const LinkModel* link,
+[01;32m[K                                                                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1159:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1184:78:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   static double testJointSpaceJump(const JointModelGroup* group, std::vector<RobotStatePtr>& traj,
+[01;32m[K                                                                              ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1184:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   static double testJointSpaceJump(const JointModelGroup* group, std::vector<RobotStatePtr>& traj,
+[01;32m[K                                                                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1184:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1197:86:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   static double testRelativeJointSpaceJump(const JointModelGroup* group, std::vector<RobotStatePtr>& traj,
+[01;32m[K                                                                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1197:99:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   static double testRelativeJointSpaceJump(const JointModelGroup* group, std::vector<RobotStatePtr>& traj,
+[01;32m[K                                                                                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1197:99:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1212:86:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' was not declared in this scope
+   static double testAbsoluteJointSpaceJump(const JointModelGroup* group, std::vector<RobotStatePtr>& traj,
+[01;32m[K                                                                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1212:99:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   static double testAbsoluteJointSpaceJump(const JointModelGroup* group, std::vector<RobotStatePtr>& traj,
+[01;32m[K                                                                                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1212:99:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1599:60:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+   void attachBody(const std::string& id, const std::vector<shapes::ShapeConstPtr>& shapes,
+[01;32m[K                                                            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1599:60:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1599:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   void attachBody(const std::string& id, const std::vector<shapes::ShapeConstPtr>& shapes,
+[01;32m[K                                                                                 ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1599:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1618:60:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+   void attachBody(const std::string& id, const std::vector<shapes::ShapeConstPtr>& shapes,
+[01;32m[K                                                            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1618:60:[m[K [01;31m[Kerror: [m[K'[01m[KShapeConstPtr[m[K' is not a member of '[01m[Kshapes[m[K'
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1618:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   void attachBody(const std::string& id, const std::vector<shapes::ShapeConstPtr>& shapes,
+[01;32m[K                                                                                 ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1618:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1823:3:[m[K [01;31m[Kerror: [m[K'[01m[KRobotModelConstPtr[m[K' does not name a type
+   RobotModelConstPtr robot_model_;
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kstd::size_t moveit::core::RobotState::getVariableCount() const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:146:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return robot_model_->getVariableCount();
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst std::vector<std::__cxx11::basic_string<char> >& moveit::core::RobotState::getVariableNames() const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:152:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return robot_model_->getVariableNames();
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst moveit::core::LinkModel* moveit::core::RobotState::getLinkModel(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:158:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return robot_model_->getLinkModel(link);
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst moveit::core::JointModel* moveit::core::RobotState::getJointModel(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:164:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return robot_model_->getJointModel(joint);
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst moveit::core::JointModelGroup* moveit::core::RobotState::getJointModelGroup(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:170:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return robot_model_->getJointModelGroup(group);
+[01;32m[K            ^[m[K
+In file included from [01m[K/usr/include/boost/assert.hpp:54:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:50[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariablePositions(const std::vector<double>&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:203:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     assert(robot_model_->getVariableCount() <= position.size());  // checked only in debug mode
+[01;32m[K            ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43:0[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariablePosition(const string&, double)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:224:25:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     setVariablePosition(robot_model_->getVariableIndex(variable), value);
+[01;32m[K                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariablePosition(int, double)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:232:28:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModel* jm = robot_model_->getJointOfVariable(index);
+[01;32m[K                            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kdouble moveit::core::RobotState::getVariablePosition(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:243:22:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return position_[robot_model_->getVariableIndex(variable)];
+[01;32m[K                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableVelocities(const double*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:288:33:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     memcpy(velocity_, velocity, robot_model_->getVariableCount() * sizeof(double));
+[01;32m[K                                 ^[m[K
+In file included from [01m[K/usr/include/boost/assert.hpp:54:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:50[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableVelocities(const std::vector<double>&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:294:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     assert(robot_model_->getVariableCount() <= velocity.size());  // checked only in debug mode
+[01;32m[K            ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43:0[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableVelocity(const string&, double)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:315:25:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     setVariableVelocity(robot_model_->getVariableIndex(variable), value);
+[01;32m[K                         ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kdouble moveit::core::RobotState::getVariableVelocity(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:329:22:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return velocity_[robot_model_->getVariableIndex(variable)];
+[01;32m[K                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableAccelerations(const double*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:379:41:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     memcpy(acceleration_, acceleration, robot_model_->getVariableCount() * sizeof(double));
+[01;32m[K                                         ^[m[K
+In file included from [01m[K/usr/include/boost/assert.hpp:54:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:50[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableAccelerations(const std::vector<double>&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:386:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     assert(robot_model_->getVariableCount() <= acceleration.size());  // checked only in debug mode
+[01;32m[K            ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43:0[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableAcceleration(const string&, double)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:408:29:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     setVariableAcceleration(robot_model_->getVariableIndex(variable), value);
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kdouble moveit::core::RobotState::getVariableAcceleration(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:422:26:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return acceleration_[robot_model_->getVariableIndex(variable)];
+[01;32m[K                          ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableEffort(const double*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:469:29:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     memcpy(effort_, effort, robot_model_->getVariableCount() * sizeof(double));
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/boost/assert.hpp:54:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:50[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableEffort(const std::vector<double>&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:475:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     assert(robot_model_->getVariableCount() <= effort.size());  // checked only in debug mode
+[01;32m[K            ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43:0[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setVariableEffort(const string&, double)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:494:23:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     setVariableEffort(robot_model_->getVariableIndex(variable), value);
+[01;32m[K                       ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kdouble moveit::core::RobotState::getVariableEffort(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:508:20:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return effort_[robot_model_->getVariableIndex(variable)];
+[01;32m[K                    ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointPositions(const string&, const double*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:529:23:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     setJointPositions(robot_model_->getJointModel(joint_name), position);
+[01;32m[K                       ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointPositions(const string&, const std::vector<double>&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:534:23:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     setJointPositions(robot_model_->getJointModel(joint_name), &position[0]);
+[01;32m[K                       ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointPositions(const string&, const Affine3d&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:551:23:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     setJointPositions(robot_model_->getJointModel(joint_name), transform);
+[01;32m[K                       ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst double* moveit::core::RobotState::getJointPositions(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:571:30:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getJointPositions(robot_model_->getJointModel(joint_name));
+[01;32m[K                              ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst double* moveit::core::RobotState::getJointVelocities(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:581:31:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getJointVelocities(robot_model_->getJointModel(joint_name));
+[01;32m[K                               ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst double* moveit::core::RobotState::getJointAccelerations(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:591:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getJointAccelerations(robot_model_->getJointModel(joint_name));
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst double* moveit::core::RobotState::getJointEffort(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:601:27:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getJointEffort(robot_model_->getJointModel(joint_name));
+[01;32m[K                           ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupPositions(const string&, const double*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:620:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupPositions(const string&, const std::vector<double>&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:630:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupPositions(const string&, const VectorXd&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:653:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const string&, std::vector<double>&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:668:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const string&, double*) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:681:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const string&, Eigen::VectorXd&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:705:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupVelocities(const string&, const double*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:726:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupVelocities(const string&, const std::vector<double>&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:736:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupVelocities(const string&, const VectorXd&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:759:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupVelocities(const string&, std::vector<double>&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:774:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupVelocities(const string&, double*) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:787:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupVelocities(const string&, Eigen::VectorXd&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:811:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupAccelerations(const string&, const double*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:832:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupAccelerations(const string&, const std::vector<double>&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:842:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::setJointGroupAccelerations(const string&, const VectorXd&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:865:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupAccelerations(const string&, std::vector<double>&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:880:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupAccelerations(const string&, double*) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:893:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::copyJointGroupAccelerations(const string&, Eigen::VectorXd&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:917:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     const JointModelGroup* jmg = robot_model_->getJointModelGroup(joint_group_name);
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::updateStateWithLinkAt(const string&, const Affine3d&, bool)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1362:27:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     updateStateWithLinkAt(robot_model_->getLinkModel(link_name), transform, backward);
+[01;32m[K                           ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst Affine3d& moveit::core::RobotState::getGlobalLinkTransform(const string&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1370:35:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getGlobalLinkTransform(robot_model_->getLinkModel(link_name));
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst Affine3d& moveit::core::RobotState::getCollisionBodyTransforms(const string&, std::size_t)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1381:38:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getCollisionBodyTransform(robot_model_->getLinkModel(link_name), index);
+[01;32m[K                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst Affine3d& moveit::core::RobotState::getJointTransform(const string&)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1392:30:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getJointTransform(robot_model_->getJointModel(joint_name));
+[01;32m[K                              ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst Affine3d& moveit::core::RobotState::getGlobalLinkTransform(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1409:35:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getGlobalLinkTransform(robot_model_->getLinkModel(link_name));
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst Affine3d& moveit::core::RobotState::getCollisionBodyTransform(const string&, std::size_t) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1420:38:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getCollisionBodyTransform(robot_model_->getLinkModel(link_name), index);
+[01;32m[K                                      ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kconst Affine3d& moveit::core::RobotState::getJointTransform(const string&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1431:30:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return getJointTransform(robot_model_->getJointModel(joint_name));
+[01;32m[K                              ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kdouble moveit::core::RobotState::distance(const moveit::core::RobotState&) const[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1469:12:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+     return robot_model_->distance(position_, other.getVariablePositions());
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::markDirtyJointTransforms(const moveit::core::JointModel*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1752:50:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+         dirty_link_transforms_ == NULL ? joint : robot_model_->getCommonRoot(dirty_link_transforms_, joint);
+[01;32m[K                                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::markDirtyJointTransforms(const moveit::core::JointModelGroup*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1762:34:[m[K [01;31m[Kerror: [m[K'[01m[Krobot_model_[m[K' was not declared in this scope
+                                  robot_model_->getCommonRoot(dirty_link_transforms_, group->getCommonRoot());
+[01;32m[K                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:[m[K In member function '[01m[Kvoid moveit::core::RobotState::updateMimicJoints(const moveit::core::JointModelGroup*)[m[K':
+[01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:1799:33:[m[K [01;35m[Kwarning: [m[Krange-based '[01m[Kfor[m[K' loops only available with -std=c++11 or -std=gnu++11
+     for (const JointModel* jm : group->getMimicJointModels())
+[01;32m[K                                 ^[m[K
+In file included from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2:0[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:[m[K At global scope:
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:77:28:[m[K [01;35m[Kwarning: [m[Kexplicit conversion operators only available with -std=c++11 or -std=gnu++11
+   explicit operator bool() const
+[01;32m[K                            ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:52:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<Type> Name##Ptr;                                                                             \
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:91:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(MoveGroupInterface);
+[01;32m[K ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:53:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<const Type> Name##ConstPtr;
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:51:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:91:1:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_CLASS_FORWARD[m[K'
+ MOVEIT_CLASS_FORWARD(MoveGroupInterface);
+[01;32m[K ^[m[K
+In file included from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2:0[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:120:18:[m[K [01;31m[Kerror: [m[K'[01m[KRobotModelConstPtr[m[K' in namespace '[01m[Krobot_model[m[K' does not name a type
+     robot_model::RobotModelConstPtr robot_model_;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:52:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<Type> Name##Ptr;                                                                             \
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:60:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:125:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_STRUCT_FORWARD[m[K'
+   MOVEIT_STRUCT_FORWARD(Plan);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/declare_ptr.h:53:16:[m[K [01;31m[Kerror: [m[K'[01m[Kshared_ptr[m[K' in namespace '[01m[Kstd[m[K' does not name a template type
+   typedef std::shared_ptr<const Type> Name##ConstPtr;
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/macros/class_forward.h:60:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_DECLARE_PTR[m[K'
+   MOVEIT_DECLARE_PTR(C, C);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:125:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KMOVEIT_STRUCT_FORWARD[m[K'
+   MOVEIT_STRUCT_FORWARD(Plan);
+[01;32m[K   ^[m[K
+In file included from [01m[K/home/yao/moveit_tutorial/src/probot_examples/src/random.cpp:2:0[m[K:
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:174:51:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+   MoveGroupInterface(const MoveGroupInterface&) = delete;
+[01;32m[K                                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:175:62:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+   MoveGroupInterface& operator=(const MoveGroupInterface&) = delete;
+[01;32m[K                                                              ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:177:40:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K,[m[K' or '[01m[K...[m[K' before '[01m[K&&[m[K' token
+   MoveGroupInterface(MoveGroupInterface&& other);
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:177:48:[m[K [01;31m[Kerror: [m[Kinvalid constructor; you probably meant '[01m[Kmoveit::planning_interface::MoveGroupInterface (const moveit::planning_interface::MoveGroupInterface&)[m[K'
+   MoveGroupInterface(MoveGroupInterface&& other);
+[01;32m[K                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:178:51:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K,[m[K' or '[01m[K...[m[K' before '[01m[K&&[m[K' token
+   MoveGroupInterface& operator=(MoveGroupInterface&& other);
+[01;32m[K                                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:188:16:[m[K [01;31m[Kerror: [m[K'[01m[KRobotModelConstPtr[m[K' in namespace '[01m[Krobot_model[m[K' does not name a type
+   robot_model::RobotModelConstPtr getRobotModel() const;
+[01;32m[K                ^[m[K
+[01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:842:16:[m[K [01;31m[Kerror: [m[K'[01m[KRobotStatePtr[m[K' in namespace '[01m[Krobot_state[m[K' does not name a type
+   robot_state::RobotStatePtr getCurrentState(double wait = 1);
+[01;32m[K                ^[m[K
+make[2]: *** [CMakeFiles/random.dir/src/random.cpp.o] Error 1
+make[1]: *** [CMakeFiles/random.dir/all] Error 2
+make: *** [all] Error 2

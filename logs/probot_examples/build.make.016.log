@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target run_circle[0m
+[ 16%] Built target speed_control
+[ 33%] Built target inverse_kinematic
+[ 66%] Built target cartesian_move
+[ 66%] Built target direct_kinematic
+[ 83%] Built target random
+[ 91%] [32mBuilding CXX object CMakeFiles/run_circle.dir/src/run_circle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/yao/moveit_tutorial/devel/.private/probot_examples/lib/probot_examples/run_circle[0m
+[100%] Built target run_circle

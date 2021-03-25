@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yao/moveit_tutorial/devel/.private/probot_examples/setup.sh

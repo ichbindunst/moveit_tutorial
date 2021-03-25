@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/kinetic/share/catkin/cmake/custom_install.cmake:13 (_install):
+  install TARGETS given target "run_circle" which does not exist in this
+  directory.
+Call Stack (most recent call first):
+  CMakeLists.txt:226 (install)
+
+
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,8 @@
+prefix=/home/yao/moveit_tutorial/devel/.private/probot_description
+
+Name: probot_description
+Description: Description of probot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
